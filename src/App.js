@@ -57,6 +57,11 @@ function App() {
       });
   }
 
+  // twitter signup
+  const twitterSignup = () => {
+
+  }
+
   //  handle email
   const handleEmail = event => {
     const emailInput = event.target.value
@@ -108,6 +113,8 @@ function App() {
               <button onClick={githubSignup} className='mt-7 border px-5 py-1.5 rounded-md bg-black text-white hover:bg-white hover:text-black' >Continue with Github</button>
 
               <button onClick={facebookSignup} className='mt-7 border px-5 py-1.5 rounded-md bg-black text-white hover:bg-white hover:text-black' >Continue with Facebook</button>
+              <br />
+              <button onClick={twitterSignup} className='mt-7 border px-5 py-1.5 rounded-md bg-black text-white hover:bg-white hover:text-black' >Continue with Twitter</button>
             </div>
           </div>
         </>
